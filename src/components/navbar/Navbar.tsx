@@ -52,7 +52,7 @@ const Navbar = () => {
   return (
     <>
         <nav className={`fixed top-0 left-0 w-full z-60 transition-all duration-300
-            ${scrolled ? "backdrop-blue-xl" : "bg-transparent"}`}
+            ${scrolled ? "bg-background/75 backdrop-blur-xl" : "bg-transparent"}`}
         >
             <div className="w-[95%] lg:w-[90%] mx-auto h-16 flex items-center justify-between">
                 <Logo />
@@ -72,7 +72,7 @@ const Navbar = () => {
                     }
                 </ul>
                 
-                <div className="hidden bg:block">
+                <div className="hidden lg:block">
                     <LinkButton 
                         text="download CV"
                         href="/document/cv.pdf"
@@ -93,7 +93,7 @@ const Navbar = () => {
             </div>
         </nav>
         
-        <MobileNav navOpen={navOpen} />
+        <MobileNav navOpen={navOpen} onClose={() => setNavOpen(false)} />
     </>
   )
 }
