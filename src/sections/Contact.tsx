@@ -28,10 +28,10 @@ const Contact = () => {
     <section id="contact" className="py-24 relative overflow-hidden">
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-80 h-80 rounded-full blur-3xl bg-primary/10" />
       <SectionHeader 
-      title="Let's build something great" 
-      highlight="something great" 
-      badge="Contact"
-      description="Have a project in mind or want to discuss potential opportunities? Feel free to reach out!"
+        title="Let's build something great" 
+        highlight="something great" 
+        badge="Contact"
+        description="Have a project in mind or want to discuss potential opportunities? Feel free to reach out!"
       />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
