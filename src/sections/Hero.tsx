@@ -68,7 +68,7 @@ const Hero = () => {
             <Image
               fill
               src="/images/profile.png"
-              alt="profile"
+              alt="profile image"
               className="z-10 object-cover rounded-full"
             />
           </div>

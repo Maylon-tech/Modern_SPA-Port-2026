@@ -18,7 +18,7 @@ const About = () => {
                         <Image
                             fill 
                             src="/images/about1.png"
-                            alt="about"
+                            alt="about me"
                             className="z-10 object-cover rounded-xl"
                         />
                     </div>
@@ -36,7 +36,7 @@ const About = () => {
                 </h2>
                 
                 <p className="text-gray-300 max-w-xl">
-                    I&apos;m a fullstack developer specializing in Next.js and modern web technologies. I enhjo.
+                    I&apos;m a fullstack developer specializing in Next.js and modern web technologies. I enjoy creating efficient and scalable solutions.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4">
