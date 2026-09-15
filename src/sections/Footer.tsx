@@ -1,5 +1,6 @@
 import Logo from "@/components/navbar/Logo"
 import Link from "next/link"
+import Image from "next/image"
 
 import {
     LuGithub, LuTwitter, LuLinkedin
