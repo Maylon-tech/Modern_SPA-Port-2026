@@ -28,13 +28,24 @@ const Footer = () => {
             <div className="flex items-center gap-4">
                 {
                     [LuGithub, LuLinkedin, LuTwitter].map((Icon, index) => (
-                        <Link href="#" className="">
-                            <Icon w-5 h-5 />
+                        <Link 
+                        key={index}
+                            href="#" 
+                            className="w-10 h-10 rounded-full flex items-center justify-center border border-border text-gray-300 hover:text-primary hover:border-primary hover:shadow-[0_0_20px_rgba(32,178,166, 0.2)] transition-all duration-300"
+                        >
+                            <Icon className="w-5 h-5" />
                         </Link>
                     ))
                 }
             </div>
         </div>
+
+        <div className="h-px" />
+
+        {/* Bottom Footer */}
+        <p className="text-center text-gray-400 text-sm">
+            &copy; {new Date().getFullYear()} nextDev. All rights reserved.
+        </p>
       </div>
     </footer>
   )
