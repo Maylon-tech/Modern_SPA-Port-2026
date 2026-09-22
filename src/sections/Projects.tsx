@@ -1,7 +1,6 @@
 import ProjectCard from "@/components/project/ProjectCard"
 import SectionHeader from "@/components/ui/SectionHeader"
 
-
 const projects = [
     {
         title: "Fullstack SaaS Dashboard",
@@ -37,8 +36,6 @@ const projects = [
     },
 ]
 
-
-
 const Projects = () => {
   return (
     <section id="projects" className="py-24 relative">
@@ -51,8 +48,6 @@ const Projects = () => {
                 badge="Projects"
                 description="A selection of projects showcasing my ability to design, build, and scale modern fullstack applications."
             />
-            
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
                 {
                     projects.map((project, index) => (

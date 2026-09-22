@@ -35,8 +35,6 @@ const MobileNav = ({ navOpen, onClose }:MobileNavProps) => {
                 }
             </ul>
         </aside>
-
-
     </>
   )
 }

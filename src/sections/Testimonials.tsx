@@ -1,50 +1,29 @@
 import SectionHeader from "@/components/ui/SectionHeader"
-<<<<<<< HEAD
-=======
-import Image from "next/image"
->>>>>>> 7882a7c (reviewing the code itself)
 import { LuQuote } from "react-icons/lu"
-
 
 const testimonials = [
     {
         name: "David Okafor",
         role: "Startup Founder",
-<<<<<<< HEAD
-        image: "/images/user1.png",
-=======
-        image: "/images/profile.png",
->>>>>>> 7882a7c (reviewing the code itself)
+        image: "/images/user01.png",
         feedback: "Working with Emmanuel was a great experience. He delivered a clean, scalable productions"
     },
     {
         name: "Sarah Johnson",
         role: "Product Designer",
-<<<<<<< HEAD
-        image: "/images/user2.png",
-=======
-        image: "/images/profile.png",
->>>>>>> 7882a7c (reviewing the code itself)
+        image: "/images/user01.png",
         feedback: "Working with Emmanuel was a great experience. He delivered a clean, scalable productions"
     },
     {
         name: "Michael Chen",
         role: "Software Engineer",
-<<<<<<< HEAD
-        image: "/images/user3.png",
-=======
-        image: "/images/profile.png",
->>>>>>> 7882a7c (reviewing the code itself)
+        image: "/images/user01.png",
         feedback: "Working with Emmanuel was a great experience. He delivered a clean, scalable productions"
     },
     {
         name: "Amina Bello",
         role: "Entrepreneur",
-<<<<<<< HEAD
-        image: "/images/user4.png",
-=======
-        image: "/images/profile.png",
->>>>>>> 7882a7c (reviewing the code itself)
+        image: "/images/user01.png",
         feedback: "Working with Emmanuel was a great experience. He delivered a clean, scalable productions"
     },
 ]
@@ -71,23 +50,6 @@ const Testimonials = () => {
                         <p className="text-gray-300 leading-relaxed mb-6 pr-12">
                             {item.feedback}
                         </p>
-<<<<<<< HEAD
-=======
-
-                        <div className="flex items-center gap-4">
-                            <Image
-                                width={50}
-                                height={50}
-                                src={item.image}
-                                alt={item.name}
-                                className="w-12 h-12 rounded-full object-cover border border-border"
-                            />
-                            <div>
-                                <h4 className="text-text font-semibold">{item.name}</h4>
-                                <p className="text-sm text-gray-400">{item.role}</p>
-                            </div>
-                        </div>
->>>>>>> 7882a7c (reviewing the code itself)
                     </div>
                 ))
             }

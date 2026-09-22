@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { LuCode, LuDatabase, LuRocket } from "react-icons/lu"
 
-
 const About = () => {
   return (
     <section id="about" className="py-24 overflow-hidden relative">

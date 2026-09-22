@@ -3,8 +3,6 @@ import LinkButton from "@/components/ui/LinkButton"
 import Image from "next/image"
 import { LuArrowRight } from "react-icons/lu"
 
-
-
 const Hero = () => {
   return (
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden px-0 py-10 pt-24">
@@ -73,9 +71,7 @@ const Hero = () => {
             />
           </div>
         </div>
-
       </div>
-
     </section>
   )
 }

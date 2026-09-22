@@ -1,13 +1,10 @@
 
-
 interface SectionHeaderProps {
     badge?: string,
     title: string,
     highlight?: string,
     description?: string
 }
-
-
 
 const SectionHeader = ({
     badge,
@@ -36,8 +33,6 @@ const SectionHeader = ({
                 </p>
             )
         }
-
-          
     </div>
   )
 }
